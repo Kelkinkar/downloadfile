@@ -7,8 +7,12 @@ button{
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    justify-content: center;
+    display: flex;
 }
 #increment-btn{
-    /* background: darkred; */
-    background-color: darkred;
+    background: darkred;
+}
+#save-btn{
+    background: green;
 }
