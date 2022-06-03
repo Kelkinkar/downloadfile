@@ -7,8 +7,27 @@ button{
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    align-items: end;
+    justify-content: center;
+    /* display: flex; */
+
 }
 #increment-btn{
     /* background: darkred; */
     background-color: darkred;
+}
+#save-btn{
+    background: green;
+    margin-top: 20px;
+
+}
+#welcome-el{
+    background: blue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    justify-content: center;
 }
